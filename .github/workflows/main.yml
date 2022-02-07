@@ -13,8 +13,8 @@ jobs:
 
       - name: Install and Build 🔧
         run: |
-          npm install ts-node
-          npm run build
+          yarn install ts-node
+          yarn build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.2.2
         with:
